@@ -17,5 +17,10 @@
         sh 'lscpu'
       }
     }
+    stage('3-testing code'){
+      steps{
+        sh 'lscpu'
+      }
+    }
   }
 }
